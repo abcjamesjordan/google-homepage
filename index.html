@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-
 <html>
 
     <head>
-        
         <link href="./css/reset.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="./css/main.css" rel="stylesheet" type="text/css" media="all"/>
         
         <title>Google</title>
-
     </head>
 
     <body>
         <main>
 
-            <div id="google_logo">
+            <div class="main-container">
 
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+                <div class="grid-item1">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+                </div>
 
+                <div class="grid-item2">
+                    <form action="#" method="Post" name="My Search">
+                        <input type="text" name="username">
+                    </form>
+                </div>
+
+                <div class="grid-item3">
+                    <form action="#" method="POST" name="submit">
+                        <input type="submit" value="Google Search">
+                    </form>
+                </div>
+
+                <div class="grid-item4">
+                    <form action="#" method="POST" name="submit">
+                        <input type="submit" value="I'm Feeling Lucky">
+                    </form>
+                </div>
+                
             </div>
 
-            <div id="search_box">
-
-                <form action="#" method="Post" name="My Search">
-
-                    <input type="text" name="username">
-
-                </form>
-
-            </div>
-            
         </main>
-
     </body>
-
 </html>
