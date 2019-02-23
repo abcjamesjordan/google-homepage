@@ -1,0 +1,15 @@
+/* CSS Styles */
+
+#google_logo, #search_box, img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 35%;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
