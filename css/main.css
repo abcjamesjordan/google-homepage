@@ -1,73 +1,85 @@
 /* CSS Styles */
 
-html, body {
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit_buttons:hover {
+    cursor:pointer;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+#logo {
+    margin-top: 150px;
+}
+
+#submit_buttons {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    height: 36px;
+    line-height: 27px;
+}
+
+form{ 
+    display: inline-block;
+}
+
+#search_bar_container {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+#my_search_bar {
+    height: 20px;
+    width: 500px;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
-    height: 100%;
 }
 
-.container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    background-color: #2196F3;
-    padding: 10px;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 3px;
+    line-height: 40px;
+    font-size: small;
+    background-color: #f2f2f2;
 }
 
-
-header {
-    background-color: aqua;
+li {
+    float: left;
 }
 
-main {
-    background-color: brown;
+a {
+    display: inline-block;
+    padding: 1px;
+    margin-left: 10px;
+    color: #5f6368;
+    text-decoration: none;
 }
 
-footer {
-    background-color: yellow;
+a:hover {
+    text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-/* 
-.grid-item1 {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-}
-
-.grid-item2 {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    grid-column: 1 / span 2;
-    grid-row: 2;
-}
-
-.grid-item3 {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.grid-item4 {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    grid-column: 2;
-    grid-row: 3;
-} */
