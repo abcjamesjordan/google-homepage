@@ -1,7 +1,4 @@
 # google-homepage
 HTML/CSS project for The Odin Project
 
-This project is intended to test and push my knowledge of html and css.
-
-This project is a re-creation of the google homepage.
-
+This is a basic replication of the google homepage. By completing this I have introduced myself to very basic elements to the front-end development in HTML and CSS. This was done as a project for "The Odin Project". The Odin project can be found here https://www.theodinproject.com/
