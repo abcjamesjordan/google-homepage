@@ -1,6 +1,4 @@
 /* CSS Styles */
-
-
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +32,7 @@ body {
     line-height: 27px;
 }
 
-form{ 
+form { 
     display: inline-block;
 }
 
@@ -44,10 +42,18 @@ form{
 }
 
 #my_search_bar {
-    height: 20px;
-    width: 500px;
-    border-radius: 1px;
+    width: 584px;
+    height: 44px;
+    border: 1px solid lightgrey;
+    display: flex;
+    z-index: 300;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding-right: 1em;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
     font-size: 16px;
+    box-shadow: 0px 3px 10px -5px;
 }
 
 .header {
@@ -55,6 +61,8 @@ form{
     left: 0;
     top: 0;
     width: 100%;
+    font-size: small;
+    line-height: 27px;
 }
 
 .footer {
@@ -82,4 +90,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#sign_in {
+    color: white;
+}
+
+a.testing {
+    text-decoration: none;
 }
